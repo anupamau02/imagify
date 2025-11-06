@@ -13,7 +13,7 @@ const AppContextProvider = (props) => {
     const [credit, setCredit] = useState(false)
 
     //creating an obj that will help to access backend url from anywhere 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "https://imagify-server-zurw.onrender.com";
 
     const navigate = useNavigate()
 
